@@ -1,14 +1,12 @@
-import { FC } from "react";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 import {
   Button,
   Container,
   Heading,
-  HStack,
-  Text,
-  VStack,
-  Image,
+  HStack, Image, Text,
+  VStack
 } from "@chakra-ui/react";
-import { ArrowForwardIcon } from "@chakra-ui/icons";
+import { FC } from "react";
 
 const Connected: FC = () => {
   return (
