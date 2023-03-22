@@ -1,15 +1,15 @@
-import { FC, MouseEventHandler, useCallback } from "react";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 import {
   Button,
   Container,
   Heading,
   HStack,
   Text,
-  VStack,
+  VStack
 } from "@chakra-ui/react";
-import { ArrowForwardIcon } from "@chakra-ui/icons";
-import { useWalletModal } from "@solana/wallet-adapter-react-ui";
 import { useWallet } from "@solana/wallet-adapter-react";
+import { useWalletModal } from "@solana/wallet-adapter-react-ui";
+import { FC, MouseEventHandler, useCallback } from "react";
 
 const Disconnected: FC = () => {
   const modalState = useWalletModal();
@@ -36,7 +36,6 @@ const Disconnected: FC = () => {
           color="white"
           as="h1"
           size="3xl"
-          noOfLines={2}
           textAlign="center"
         >
           Mint your buildoor. Earn $BLD. Level up.
