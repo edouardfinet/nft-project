@@ -10,7 +10,7 @@ import { FC } from "react";
 
 const Connected: FC = () => {
   return (
-    <VStack spacing={20}>
+    <VStack spacing={10}>
       <Container>
         <VStack spacing={8}>
           <Heading
